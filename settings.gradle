@@ -1,0 +1,1 @@
+include ':app' ,':lib-component-router-compiler', ':lib-component-router', ':lib-component-router-annotation'

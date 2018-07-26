@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation deps.google.processorService
+    implementation project(':lib-component-router-annotation')
+    implementation deps.square.javapoet
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
